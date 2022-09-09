@@ -544,7 +544,10 @@ background: var(--background-color);
     align-items: baseline;
 }
 
-.footer-wrapper-adress
+.footer-wrapper-adress{
+    display: flex;
+    
+}
 
 
 .adress {
