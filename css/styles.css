@@ -788,6 +788,7 @@ transform: translateY(0%);
     opacity: 0;
     pointer-events: none;
    }
+   /* ==========modal-form===== */
 .modal-form{
     padding: 40px;
 
@@ -873,4 +874,28 @@ margin-top: 30px;
 .modal-form-label:focus-within .contact-form-input{
     border: 1px solid var(--accent-color);
     outline: none;
+}
+/* =============modal-form-footer=== */
+
+.modal-form-footer-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-transform: uppercase;
+color: var(--whitey-color);
+}
+.modal-form-footer{
+  display: flex;
+  align-items: flex-end;  
+  
+}
+
+.contact-form-input-footer{
+
+
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+padding-left: 16px;
+
 }
