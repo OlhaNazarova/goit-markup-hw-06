@@ -542,11 +542,11 @@ background: var(--background-color);
 .color-back .container{
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
 }
 
 .footer-wrapper-adress{
-    display: flex;
-    
+    flex-direction: column;
 }
 
 
@@ -574,8 +574,6 @@ color: rgba(255, 255, 255, 0.6);
 
 /*========footericon===*/
 .dark-list-item{
-    margin-left: 70px;
-    display: inline-flex;
     flex-direction: column;
 }
 .conected{
@@ -885,8 +883,8 @@ text-transform: uppercase;
 color: var(--whitey-color);
 }
 .modal-form-footer{
-  display: flex;
-  align-items: flex-end;  
+  
+    
 
 }
 
