@@ -882,6 +882,12 @@ display: block;
     background-color: var(--accent-color);
     border: 2px solid var(--accent-color);
 }
+.input-checkbox{
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
+}
 
 
 /* =============modal-form-footer=== */
