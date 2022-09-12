@@ -787,7 +787,10 @@ transform: translateY(0%);
    .modal-close-btn:focus .modal-close-icon
    {
     fill: var(--accent-color);
+    
    }
+
+  
 
    .backdrop.is-hidden {
     visibility: hidden;
@@ -815,7 +818,7 @@ margin-bottom: 12px;
     
 }
 .modal-label-comment{
-    margin-bottom: 20px;
+    
 }
 .modal-form-text{
     font-size: 12px;
@@ -898,6 +901,7 @@ display: block;
 .input-checkbox:checked + .icon-checkbox{
     background-color: var(--accent-color);
     border: 2px solid var(--accent-color);
+
 }
 .input-checkbox{
     -webkit-appearance: none;
@@ -911,6 +915,9 @@ display: block;
     justify-content: center;
     margin-top: 17px;
     margin-bottom: 30px;
+}
+.input-checkbox:focus + .icon-checkbox
+{box-shadow: 0 0 0 2px rgba(0, 0, 250, 0.5);
 }
 
 
