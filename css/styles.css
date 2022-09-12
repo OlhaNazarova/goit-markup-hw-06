@@ -874,7 +874,14 @@ display: block;
     border: 1px solid var(--accent-color);
     outline: none;
 }
-
+.icon-checkbox{
+    border: 1px solid #000000;
+    border-radius: 2px;
+}
+.checkbox:checked + .icon-checkbox{
+    background-color: var(--accent-color);
+    border: 2px solid var(--accent-color);
+}
 
 
 /* =============modal-form-footer=== */
