@@ -818,6 +818,9 @@ margin-bottom: 12px;
     position: relative;
     
 }
+.modal-form-comment{
+    margin-bottom: 20px;
+}
 .modal-label-comment{
     
 }
@@ -826,6 +829,7 @@ margin-bottom: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
     color: #757575;
+    display: block;
     
 }
 .contact-form-input{
@@ -929,7 +933,6 @@ color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 17px;
     margin-bottom: 30px;
 }
 .input-checkbox:focus + .icon-checkbox
