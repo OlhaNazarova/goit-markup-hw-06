@@ -592,9 +592,7 @@ color: rgba(255, 255, 255, 0.6);
     display: flex;
     justify-content: center;
 }
-.social-list-item{
 
-}
 .social-list-dark{
    
     height: 44px;
@@ -818,17 +816,15 @@ margin-bottom: 12px;
     position: relative;
     
 }
-.modal-form-comment{
+.modal-label-comment{
     margin-bottom: 20px;
 }
-.modal-label-comment{
-    
-}
+
 .modal-form-text{
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
-    color: #757575;
+    color: var(--mail-color);
     display: block;
     
 }
@@ -950,11 +946,7 @@ text-transform: uppercase;
 color: var(--whitey-color);
 margin-bottom: 20px;
 }
-.modal-form-footer{
-  
-    
 
-}
 
 .contact-form-input-footer{
 border: 1px solid rgba(255, 255, 255, 0.3);
@@ -966,6 +958,7 @@ width: 358px;
 padding-top: 15px;
 padding-bottom: 15px;
 margin-right: 12px;
+color: var(--whitey-color);
 }
 .contact-form-input-footer::placeholder{
 font-size: 16px;
